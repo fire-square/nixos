@@ -25,6 +25,7 @@
     ./cofob-ru
     ./dns.nix
     ./ssh.nix
+    ./nur.nix
     ./tmm
   ];
 }
