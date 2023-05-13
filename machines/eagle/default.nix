@@ -43,7 +43,7 @@
 
         default = {
           listenTo = ":25565";
-          proxyTo = "shark.n.frsqr.xyz:25565";
+          proxyTo = "10.3.7.40:25565";
           proxyProtocol = true;
           disconnectMessage = "{{username}}, cервер сейчас недоступен!\nПроверь дискорд для большей информации!";
           offlineStatus = offline // { motd = "Сервер сейчас недоступен\n -> firesquare.ru"; };
@@ -51,7 +51,7 @@
       in
       {
         main = default // { domainName = "firesquare.ru"; };
-        srv = default // { domainName = "minecraft-proxy.frsqr.xyz"; };
+        srv = default // { domainName = "minecraft-proxy.firesquare.ru"; };
         default = {
           domainName = "default";
           listenTo = ":25565";
